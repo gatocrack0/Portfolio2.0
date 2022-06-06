@@ -110,7 +110,7 @@ export const Section3 = () => {
               <p className='featured-desc'>Aplicación web para chat online - Nodejs, Express, Mongodb, Socket.io, JWT, entre otras tecnologías.</p>
             </div>
           </div>
-          <a href='https://github.com/gatocrack0/Chat-app-socket'><img src={getPathImage('socketchat.gif')} alt='socketchat' /></a>
+          <a href='https://github.com/gatocrack0/Chat-app-socket'><img src={getPathImage('socketchat.gif')} alt='chatapp' /></a>
         </div>
 
         <div className='portfolio-container transition3'>
@@ -121,7 +121,7 @@ export const Section3 = () => {
               <p className='featured-desc'>Aplicación web busca gifs - Nodejs y React.</p>
             </div>
           </div>
-          <a href='https://gatocrack0.github.io/Gif-app/'><img src={getPathImage('gifapp.gif')} alt='socketchat' /></a>
+          <a href='https://gatocrack0.github.io/Gif-app/'><img src={getPathImage('gifapp.gif')} alt='gifapp' /></a>
         </div>
 
         <div className='portfolio-container transition3'>
@@ -132,7 +132,18 @@ export const Section3 = () => {
               <p className='featured-desc'>Aplicación web sobre heroes - Nodejs, React y Local storage.</p>
             </div>
           </div>
-          <a href='https://heroes-app0.vercel.app'><img src={getPathImage('heroesapp.gif')} alt='socketchat' /></a>
+          <a href='https://heroes-app0.vercel.app'><img src={getPathImage('heroesapp.gif')} alt='heroesapp' /></a>
+        </div>
+
+        <div className='portfolio-container transition3'>
+          <div className='portfolio-left'>
+            <div className='inner'>
+              <a className='featured-title' href='https://journal-app0.vercel.app'>Journal app 📖</a>
+              <hr />
+              <p className='featured-desc'>Aplicación web de diario personal - Nodejs, React, Redux y Firebase.</p>
+            </div>
+          </div>
+          <a href='https://journal-app0.vercel.app'><img src={getPathImage('journalapp.png')} alt='journalapp' /></a>
         </div>
 
       </section>
