@@ -17,7 +17,7 @@ export const Section3 = () => {
       },
       opacity: 1,
       y: 0,
-      duration: 1.2,
+      duration: 0.6,
       stagger: 0.6
     })
   }, [])
@@ -28,7 +28,7 @@ export const Section3 = () => {
         <div className='portfolio-container transition3'>
           <div className='portfolio-left'>
             <div className='inner'>
-              <a className='' href='https://gatocrack0.github.io/Blackjack-js/'>BlackJack 🃏</a>
+              <a className='featured-title' href='https://gatocrack0.github.io/Blackjack-js/'>BlackJack 🃏</a>
               <hr />
               <p className='featured-desc'>Juego web blackjack - Vanilla JavaScript</p>
             </div>
@@ -132,7 +132,7 @@ export const Section3 = () => {
               <p className='featured-desc'>Aplicación web sobre heroes - Nodejs, React y Local storage.</p>
             </div>
           </div>
-          <a href='https://heroes-app0.vercel.app'><img src={getPathImage('heroesapp.gif')} alt='heroesapp' /></a>
+          <a href='https://heroes-app0.vercel.app'><img src={getPathImage('heroesapp.png')} alt='heroesapp' /></a>
         </div>
 
         <div className='portfolio-container transition3'>
@@ -146,6 +146,19 @@ export const Section3 = () => {
           <a href='https://journal-app0.vercel.app'><img src={getPathImage('journalapp.png')} alt='journalapp' /></a>
         </div>
 
+        <div className='portfolio-container transition3'>
+          <div className='portfolio-left'>
+            <div className='inner'>
+              <a className='featured-title' href='https://calendar-app0.herokuapp.com'>Calendar app 📅</a>
+              <hr />
+              <p className='featured-desc'>Aplicación MERN sobre un calendario - Nodejs, Express, React, Redux, Mongodb, JWT, Axios, entre otras tecnologías.</p>
+              <br />
+              <a href='https://documenter.getpostman.com/view/9798334/UzBvG3nN'><p className='featured-title'>Documentación de API REST para la aplicación.</p></a>
+              <p className='featured-desc'>⚠️En proceso de pruebas unitarias e integración.</p>
+            </div>
+          </div>
+          <a href='https://calendar-app0.herokuapp.com'><img src={getPathImage('calendarapp.png')} alt='calendarapp' /></a>
+        </div>
       </section>
     </>
   )
